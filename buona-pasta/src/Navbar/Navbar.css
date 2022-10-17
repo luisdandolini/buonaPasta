@@ -1,0 +1,49 @@
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem; 
+  background-color: #ccccbb;
+}
+
+.logo {
+  font-family: 'Italianno';
+  font-size: 3rem;
+  font-weight: bold;
+  color: #b90504;
+}
+
+.logo span{
+  color: #00755c;
+}
+
+.nav-links ul{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-links ul li {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #00755c;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 414px) {
+  header {
+    padding: .5rem 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .nav-links ul {
+    gap: .5rem;
+  }
+  .nav-links ul li {
+    font-size: .8rem;
+    padding: .5rem .75rem;
+  }
+}
