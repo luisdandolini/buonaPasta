@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 20rem; 
+
+  background-color: #00755c;
+}
+.menu img{
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+}
+
+.container-produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.titulo-produtos {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+.produtos {
+  padding: 1rem;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ccccbb;
+  border: 2px solid #b90504;
+  text-transform: uppercase;
+  color: #b90504;
+  border-radius: 6px;
+}

@@ -3,7 +3,7 @@ import './Navbar.css';
 const Navbar = () => {
   return(
     <header>
-      <a className='logo'>
+      <a className='logo' href='/'>
         Buona <span>Pasta</span>
       </a>
 
