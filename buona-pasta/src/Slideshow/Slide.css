@@ -1,0 +1,9 @@
+.image-container img{
+  width: 100vw;
+  height: 550px;
+}
+
+svg {
+  position: relative;
+  top: 7px;
+}
