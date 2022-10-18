@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Navbar';
 import Slideshow from './Slideshow';
+import Menu from './Menu';
 import './global.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Slideshow />
+      <Menu />
     </div>
   );
 }

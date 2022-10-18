@@ -1,0 +1,19 @@
+.container-menu {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.container-menu img {
+  width: 270px;
+  height: 350px;
+}
