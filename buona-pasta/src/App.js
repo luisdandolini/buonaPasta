@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Slideshow from './Slideshow';
 import Menu from './Menu';
+import Footer from './Footer';
 import './global.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Slideshow />
       <Menu />
+      <Footer />
     </div>
   );
 }
